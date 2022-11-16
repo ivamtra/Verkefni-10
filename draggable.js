@@ -1,14 +1,18 @@
+
 console.log('Hello')
 
-const square = document.getElementById('square')
+const callButton = document.getElementById('callButton')
 
-square.addEventListener('dragstart', e => {
-    console.log(e)
-    console.log(e.target)
-})
+const onClick = async () => {
+    const audio = new Audio("./audio/heyheyhey (mp3cut.net).mp3")
 
-square.addEventListener('drop', e => {
-    console.log(e)
-})
+    setTimeout(() => {
+        audio.play()
 
-const canvas = document.getElementById('canvas')
+
+    },500)
+
+}
+
+callButton.addEventListener('click', onClick)
+

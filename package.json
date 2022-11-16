@@ -8,8 +8,8 @@
     "build": "vite build",
     "preview": "vite preview",
     "lint": "stylelint styles.scss ./**/*.scss",
-    "sass": "sass styles.scss styles.css",
-    "sass-watch": "sass --watch *.scss styles.css"
+    "sass": "sass ./styles/styles.scss ./styles/styles.css",
+    "sass-watch": "sass --watch ./styles/*.scss ./styles/styles.css"
   },
   "devDependencies": {
     "eslint": "^8.27.0",
