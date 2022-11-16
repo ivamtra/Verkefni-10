@@ -1,5 +1,4 @@
 
-console.log('Hello')
 
 const callButton = document.getElementById('callButton')
 
