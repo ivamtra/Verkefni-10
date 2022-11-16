@@ -8,7 +8,7 @@ export default defineConfig({
             input: {
                 main: resolve(__dirname, 'index.html'),
                 "face-api.min.js": resolve(__dirname, 'index.html'),
-                draggable: resolve(__dirname, 'uploader.html'),
+                "draggable.js": resolve(__dirname, 'uploader.html'),
                 sound: 'public/heyheyhey.mp3',
             }
         }
