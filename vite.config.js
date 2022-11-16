@@ -4,7 +4,7 @@ import {defineConfig} from 'vite'
 
 export default defineConfig({
     build: {
-        assetsInlineLimit: '10000',
+    assetsInclude: ['./audio/*.mp3'],
         rollupOptions: {
             input: {
                 main: resolve(__dirname, 'index.html'),
