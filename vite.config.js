@@ -4,7 +4,7 @@ import {defineConfig} from 'vite'
 
 export default defineConfig({
     build: {
-    assetsInclude: ['./audio/*.mp3'],
+    assetsInclude: ['audio/*.mp3'],
         rollupOptions: {
             input: {
                 main: resolve(__dirname, 'index.html'),
