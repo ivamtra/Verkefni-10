@@ -3,7 +3,7 @@
 const callButton = document.getElementById('callButton')
 
 const onClick = async () => {
-    const audio = new Audio("heyheyhey (mp3cut.net).mp3")
+    const audio = document.getElementById('audio')
 
     setTimeout(() => {
         audio.play()
