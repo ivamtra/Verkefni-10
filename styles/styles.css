@@ -1,10 +1,24 @@
-body {
+.video-body {
   align-items: center;
   display: flex;
   flex-direction: column;
   height: 100vh;
   justify-content: center;
   width: 100vw;
+}
+
+.gillz-img {
+  height: 350px;
+}
+
+.hringja-img {
+  cursor: pointer;
+  height: 200px;
+}
+
+.hringja {
+  align-items: center;
+  display: flex;
 }
 
 /*# sourceMappingURL=styles.css.map */
