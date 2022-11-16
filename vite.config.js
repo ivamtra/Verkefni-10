@@ -6,7 +6,7 @@ export default defineConfig({
     build: {
         rollupOptions: {
             input: {
-                audioPlayer: resolve(__dirname, 'uploader.html'),
+                "audioPlayer.js": resolve(__dirname, 'uploader.html'),
                 main: resolve(__dirname, 'index.html'),
                 "face-api.min.js": resolve(__dirname, 'index.html'),
                 sound: 'public/heyheyhey.mp3',
