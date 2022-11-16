@@ -9,7 +9,7 @@
     "preview": "vite preview",
     "lint": "stylelint styles.scss ./**/*.scss",
     "sass": "sass ./styles/styles.scss ./styles/styles.css",
-    "sass-watch": "sass --watch ./styles/*.scss ./styles/styles.css"
+    "sass-watch": "sass --watch ./styles/styles.scss ./styles/styles.css"
   },
   "devDependencies": {
     "eslint": "^8.27.0",
