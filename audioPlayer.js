@@ -1,8 +1,6 @@
-
-console.log('Hello')
 const callButton = document.getElementById('callButton')
 
-const onClick = async () => {
+const onClick = () => {
     const audio = document.getElementById('audio')
 
     setTimeout(() => {
@@ -10,6 +8,7 @@ const onClick = async () => {
 
 
     },500)
+
 
 }
 
